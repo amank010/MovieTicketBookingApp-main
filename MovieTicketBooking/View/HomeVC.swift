@@ -45,26 +45,26 @@ final class HomeVC: UIViewController {
     private func loadMovies() {
         movies = [
             Movie(
-                image: "Oppenheimer",
-                title: "Oppenheimer",
-                filmReview: "The story of American scientist, J. Robert Oppenheimer, and his role in the development of the atomic bomb.",
-                releaseDate: "21/07/2023".toDate(),
+                image: "ram",
+                title: "Ramayana",
+                filmReview: "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
+                releaseDate: "08/11/2026".toDate(),
                 duration: 180,
                 genres: [Genre.Biography, Genre.Drama, Genre.History],
                 contentRating: ContentRating.R,
-                director: "Christopher Nolan",
-                cast: ["Cillian Murphy", "Emily Blunt", "Matt Damon"],
+                director: "Nitesh Tiwari",
+                cast: ["Ranbir Kapoor", "Yash", "Sai Pallavi"],
                 star: 4
             ), Movie(
-                image: "Barbie",
-                title: "Barbie",
-                filmReview: "Barbie suffers a crisis that leads her to question her world and her existence.",
-                releaseDate: "21/07/2023".toDate(),
+                image: "jolly",
+                title: "Jolly LLB 3",
+                filmReview: "Two Iconic Lawyers Fight Against The System In The Pursuit Of Justice",
+                releaseDate: "19/09/2025".toDate(),
                 duration: 114,
                 genres: [Genre.Adventure, Genre.Comedy, Genre.Fantasy],
                 contentRating: ContentRating.PG13,
-                director: "Greta Gerwig",
-                cast: ["Margot Robbie", "Ryan Gosling", "Issa Rae"],
+                director: "Subhash Kapoor",
+                cast: ["Akshay Kumar", "Huma Qureshi", "Saurabh Shukla","Arshad Warsi"],
                 star: 3
             ), Movie(
                 image: "Interstellar",
